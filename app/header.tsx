@@ -15,7 +15,7 @@ const Header = () => {
           E-commerce Afrique.
         </h2>
 
-        <p className="pt-5 pb-10   max-w-md text-sm inline-flex text-center font-alata text-foreground-secondary md:max-w-lg">
+        <p className="pt-5 pb-10   max-w-sm text-sm inline-flex text-center font-alata text-foreground-secondary md:max-w-lg">
           Execom est la plateforme e-commerce dérivée de Exowpee, un système
           complet de gestion commerciale pour les petites, moyennes et grandes
           entreprises
