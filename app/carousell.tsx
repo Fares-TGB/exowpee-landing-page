@@ -3,6 +3,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
+import Image from "next/image";
 
 const logos = [
   "/log1.svg",
@@ -31,9 +32,11 @@ const Carousell = () => {
       <Slider {...settings}>
         {logos.map((logo, index) => (
           <div key={index} className="px-4">
-            <img
+            <Image
               src={logo}
               alt={`partner ${index}`}
+              width={500}
+              height={300}
               className="h-8 w-auto object-contain text-foreground-secondary"
             />
           </div>

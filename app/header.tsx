@@ -5,7 +5,7 @@ import Icone from "./icone";
 const Header = () => {
   return (
     <div className=" flex flex-col items-center  ">
-      <h2 className="text-[27px] font-alata ">JUSQU'AU 31 MARS 2025</h2>
+      <h2 className="text-[27px] font-alata ">JUSQU&apos;AU 31 MARS 2025</h2>
 
       <Icone />
 

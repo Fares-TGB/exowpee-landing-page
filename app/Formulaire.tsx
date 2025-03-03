@@ -123,7 +123,7 @@ const Formulaire = () => {
             >
               <option value="Benin">Benin🇧🇯</option>
               <option value="Togo">Togo🇹🇬</option>
-              <option value="Cote d'Ivoire">Cote d'Ivoire🇨🇮</option>
+              <option value="Cote d'Ivoire">Cote d&apos;Ivoire🇨🇮</option>
             </select>
             {errors.country && (
               <p className="text-red-500">{errors.country.message}</p>
