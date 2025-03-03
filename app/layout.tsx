@@ -1,6 +1,19 @@
 import type { Metadata } from "next";
+import { Alata, Inter } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: "600",
+  variable: "--font-inter",
+});
+
+const alata = Alata({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-alata",
+});
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -26,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${alata.variable} antialiased`}
       >
         {children}
       </body>
